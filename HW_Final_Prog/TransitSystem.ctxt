@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TransitSystem
+comment0.text=\n\ The\ TransitSystem\ class\ reads\ the\ file\ of\ transit\ lines\ and\ creates\ the\ array\ of\ Transit\ stations.\ It\ also\ checks\n\ if\ a\ route\ exists,\ and\ prints\ the\ route.\n\n\ Alex\ Lai\n\ Wednesday,\ November\ 27\ 2019\n
+comment1.params=fileName\ startStation\ endStation
+comment1.target=TransitSystem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ readLines()
+comment2.text=\n\ readLines\ will\ reads\ the\ Lines,\ and\ transit\ systems\ one\ by\ one\ and\ creates\ the\ Line\ objects/array\ of\ Transit\ Strings.\n
+comment3.params=
+comment3.target=boolean\ hasRoute()
+comment3.text=\n\ The\ hasRoute\ method\ will\ check\ if\ it\ is\ possible\ to\ get\ from\ startStation\ to\ endStation.\ \n\ hasRoute\ is\ only\ used\ to\ check\ if\ you\ can\ get\ from\ start\ to\ end\ in\ the\ same\ Line.\ It\ won't\ check\ for\ transfers.\n\ \n
+comment4.params=
+comment4.target=void\ printRoute()
+comment4.text=\n\ The\ printRoute\ method\ will\ print\ the\ output\ of\ the\ destination,\ there\ are\ three\ possible\ scenarios,\n\ and\ the\ printRoute\ method\ is\ capable\ of\ printing\ any\ of\ these\ three\:\n\ 1)\ The\ startStation\ and\ endStation\ are\ in\ the\ same\ Line.\n\ 2)\ You\ can\ transfer\ one\ to\ another\ Station\ to\ get\ to\ your\ desired\ destination,\ you\ can\ only\ transfer\ once,\ and\ in\ the\ forward\ direction.\n\ 3)\ Invalid\ input,\ or\ you\ want\ to\ get\ somewhere\ but\ you'd\ have\ to\ go\ backwards\ on\ the\ Line,or\ transfer\ twice,\ which\ is\ not\ assumed\ to\ be\ possible.\n
+numComments=5

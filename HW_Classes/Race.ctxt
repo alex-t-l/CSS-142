@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Race
+comment0.text=\n\ This\ class\ contains\ the\ methods\ that\ will\ compute\ the\ values,\ and\ sort\ the\ users\ input.\ It\ also\ counts\ the\ duplicates.\n\n\ Alex\ Lai\n\ Tuesday,\ November\ 26\ 2019\n
+comment1.params=raceTimes
+comment1.target=double[]\ readInTimes(java.lang.String)
+comment1.text=\n\ The\ readInTimes\ method\ will\ assign\ the\ String\ of\ numbers\ the\ user\ typed\ into\ an\ array\ of\ numbers.\ \n\ For\ example,\ user\ inputs\ "3\ 5\ 1\ 1",\ it\ returns\ [3,\ 5,\ 1,\ 1]\n\ @param\ raceTimes\ -\ the\ String\ of\ numbers\ the\ user\ inputs,\ all\ in\ one\ line\ separated\ by\ spaces.\n\ @return\ -\ the\ array\ of\ numbers\ in\ the\ order\ the\ user\ typed\ it\ in.\n
+comment2.params=nums
+comment2.target=double[]\ sortTimesAscending(double[])
+comment2.text=\n\ The\ sortTimesAscending\ method\ will\ sort\ the\ inputted\ numbers\ into\ an\ orderly\ format\ of\ ascending\ order.\ \n\ For\ example,\ user\ inputs\ "3,\ 5,\ 1,\ 1",\ it\ returns\ [1,\ 1,\ 3,\ 5]\n\ @param\ nums\ -\ array\ of\ the\ user's\ race\ times,\ assumingly\ not\ sorted\ yet.\n\ @return\ -\ the\ array\ sorted\ from\ least\ to\ greatest\ in\ ascending\ order.\n
+comment3.params=nums
+comment3.target=void\ findFastestTimes(double[])
+comment3.text=\n\ The\ findFastestTimes\ method\ will\ assign\ the\ first\ three\ numbers\ of\ the\ sorted\ array\ to\ 1st\ to\ 3rd\ place.\n\ For\ example,\ the\ array\ [1,\ 5,\ 10],\ 1st\ place\:\ 1.0\ |\ 2nd\ place\:\ 5.0\ |\ 3rd\ place\:\ 10.0\n\ @param\ nums\ -\ the\ array\ of\ raceTimes,\ assumingly\ already\ sorted\ once\ this\ runs.\n
+comment4.params=nums
+comment4.target=void\ findDuplicates(double[])
+comment4.text=\n\ The\ findDuplicates\ method\ will\ increment\ the\ ints\ firstPlace,\ secondPlace,\ and\ thirdPlace.\n\ For\ example,\ the\ array\ [1,\ 1,\ 1,\ 2,\ 2,\ 3,\ 3,\ 3,\ 5,\ 10,\ 999],\ firstPlaceCount\ is\ 3,\ secondPlaceCount\ is\ 2,\ thirdPlaceCount\ is\ 3.\n\ @param\ nums\ -\ the\ array\ of\ raceTimes,\ assumingly\ already\ sorted\ once\ this\ runs.\n
+numComments=5

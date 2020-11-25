@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ObjectList
+comment1.params=lines
+comment1.target=ObjectList(int)
+comment2.params=next
+comment2.target=void\ add(java.lang.Object)
+comment3.params=
+comment3.target=int\ length()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=index
+comment5.target=java.lang.Object\ get(int)
+comment6.params=
+comment6.target=FractionCounter[]\ getFC()
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

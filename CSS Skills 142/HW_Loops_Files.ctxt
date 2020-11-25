@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=HW_Loops_Files
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ This\ main\ method\ checks\ if\ the\ file\ exists\ in\ the\ directory.\n\ There\ is\ also\ an\ option\ to\ test\ the\ variables\ of\ the\ values\ not\ printed.\n\ @param\ args\n
+comment2.params=inputFile\ psWeight\ msWeight\ fsWeight
+comment2.target=void\ program(java.util.Scanner,\ double,\ double,\ double)
+comment2.text=\n\ This\ method\ outputs\ the\ IDs,\ class\ scores,\ averages,\ and\ determines\ if\ they\ passed\ or\ not.\n\ \n\ @param\ Scanner\ inputFile-\ scans\ the\ txt\ file.\ double\ psWeight,\ msWeight,\ fsWeight-\ values\ of\ score\ weight.\n
+comment3.params=psWeight\ msWeight\ fsWeight
+comment3.target=void\ testVariablesValues(double,\ double,\ double)
+comment3.text=\n\ This\ method\ outputs\ that\ outputs\ things\ you\ can't\ see\ printed\ in\ the\ program\ method,\ which\ is\ the\ weighted\ averages.\n\ @param\ double\ psWeight,\ msWeight,\ fsWeight\ -\ all\ the\ values\ of\ the\ score\ weight.\n
+numComments=4

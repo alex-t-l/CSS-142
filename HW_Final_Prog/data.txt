@@ -1,0 +1,8 @@
+Red 6
+SouthGate,University Street,SODO,Mercer Island,Factoria,Issaquah
+Green 5
+Renton,Factoria,Bellevue,Kirkland,Bothell
+Blue 6
+Capital Hill,UW Seattle,Lynnwood,Bothell,Totem Lake,Kenmore
+Yellow 6
+Lynnwood,Northgate,Ballard,Interbay,Queen Anne,University Street

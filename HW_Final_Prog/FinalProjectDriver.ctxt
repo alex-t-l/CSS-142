@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FinalProjectDriver
+comment0.text=\n\ The\ FinalProjectDriver\ class\ has\ the\ main\ method\ which\ instantiates\ the\ TransitSystemClass.\ \n\ This\ class\ uses\ the\ other\ two\ classes\ to\ find\ and\ rint\ the\ route.\n\n\ Alex\ Lai\n\ Wednesday,\ November\ 27\ 2019\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ The\ main\ method\ has\ a\ try\ catch\ that\ catches\ index\ out\ of\ bound\ errors\ -\ these\ errors\ indicate\ an\ invalid\ input.\n\ Once\ it\ catches\ this\ "invalid\ input,"\ it\ stops\ the\ program.\ This\ method\ gives\ the\ startStation\ and\ endStation\ \n\ to\ the\ Transit\ System,\ so\ it\ can\ use\ it\ to\ process\ the\ route.\n\ \n\ @param\ args\n
+numComments=2

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ReportDriver
+comment0.text=\n\ The\ ReportDriver\ class\ contains\ the\ main\ method\ where\ you\ are\ asked\ to\ input\ the\ Race\ times.\n\ This\ method\ also\ contains\ a\ test\ method\ where\ you\ can\ test\ the\ values\ of\ your\ first\ race.\n\ Alex\ Lai\n\ Tuesday,\ November\ 26\ 2019\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=sortedNums\ firstPlace\ secondPlace\ thirdPlace\ firstPlaceCount\ secondPlaceCount\ thirdPlaceCount
+comment2.target=void\ testVariables(double[],\ double,\ double,\ double,\ int,\ int,\ int)
+comment2.text=\n\ The\ testVariables\ method\ will\ print\ out\ the\ sorted\ array,\ 1st\ to\ 3rd\ place\ values,\ and\ 1st\ to\ 3rd\ place\ count.\n\ @param\ sortedNums\ -\ array\ of\ sorted\ race\ times\ \n\ @param\ firstPlace\ -\ racer\ who\ scored\ the\ fastest\n\ @param\ secondPlace\ -\ racer\ who\ scored\ the\ second\ fastest,\ can\ be\ a\ duplicate\n\ @param\ thirdPlace\ -\ racer\ who\ scored\ the\ third\ fastest,\ can\ be\ a\ duplicate\n\ @param\ firstPlaceCount\ -\ final\ incremented\ value\ counting\ first\ place\ value\ repeats\n\ @param\ secondPlaceCount\ -\ final\ incremented\ value\ counting\ second\ place\ value\ repeats\n\ @param\ thirdPlaceCount)\ -\ final\ incremented\ value\ counting\ third\ place\ value\ repeats\n
+numComments=3
